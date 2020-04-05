@@ -117,9 +117,8 @@ function runLiri() {
 
             //if statement for no song provided
             if (!userInput) {
-                userInput = "The Sign";
-                // nextUserInput = userInput.replace(/%20/g, " ");
-                nextUserInput = "Ace of Base"
+                userInput = "The Sign Ace of Base";
+                nextUserInput = userInput.replace(/%20/, " ");
             }
 
             //append userInput to log.txt
@@ -136,12 +135,12 @@ function runLiri() {
                 query: userInput
             }, function (err, data) {
                 if (err) {
-                    console.log("error occured: " + err)
+                    console.log("Error occured: " + err)
                 }
 
                 //assign data being used to a variable
                 var info = data.tracks.items
-                // console.log(info);
+                // console.log(test);
 
                 //loop through "items" array
                 for (var i = 0; i < info.length; i++) {
@@ -152,14 +151,14 @@ function runLiri() {
                     //store "artists" array to variable
                     var artistsInfo = albumObject.artists
                     //loop through "artists" array
-                    for (var j = 0; j < artistsInfo.length; j++) {
-                        console.log("Artist: " + artistsInfo[j].name)
+                    for (var x = 0; x < artistsInfo.length; x++) {
+                        console.log("Artist: " + artistsInfo[x].name)
                         console.log("Song Name: " + trackName)
                         console.log("Preview of Song: " + preview)
                         console.log("Album Name: " + albumObject.name)
                         console.log("----------------")
                         //append data to log.txt
-                        fs.appendFileSync("log.txt", "Artist: " + artistsInfo[j].name + "\nSong Name: " + trackName + "\nPreview of Song: " + preview + "\nAlbum Name: " + albumObject.name + "\n----------------\n", function (error) {
+                        fs.appendFileSync("log.txt", "Artist: " + artistsInfo[x].name + "\nSong Name: " + trackName + "\nPreview of Song: " + preview + "\nAlbum Name: " + albumObject.name + "\n----------------\n", function (error) {
                             if (error) {
                                 console.log(error);
                             };
@@ -175,7 +174,7 @@ function runLiri() {
                 //if statement for no movie provided
                 if (!userInput) {
                     userInput = "Mr%20Nobody";
-                    nextUserInput = userInput.replace(/%20/g, " ");
+                    nextUserInput = userInput.replace(/%20/, " ");
                 }
     
                 //append userInput to log.txt
@@ -183,6 +182,7 @@ function runLiri() {
                     if (error) {
                         console.log(error);
                     };
+                    
                 });
     
                 //run request to OMDB
@@ -208,9 +208,26 @@ function runLiri() {
                                 };
                             });
                     }
-                });
-    
-                break;
-        
+                });    
+                break;       
     }
+}
+
+//Random.txt: node liri.js do-what-it-says
+if (userCommand == "do-what-it-says") {
+    var fs = require("fs");
+
+    //random.txt file
+    fs.readFile("random.txt", "utf8", function (error, data) {
+        if (error) {
+            return console.log(error)
+        }
+
+        //array
+        var textArr = data.split(",");
+        userCommand = textArr[0];
+        userInput = textArr[1];
+        nextUserInput = userInput.replace(/%20/g, " ");
+        runLiri();
+    })
 }

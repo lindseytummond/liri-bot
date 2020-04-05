@@ -173,7 +173,7 @@ function runLiri() {
         case "movie-this":
                 //if statement for no movie provided
                 if (!userInput) {
-                    userInput = "Mr%20Nobody";
+                    userInput = "Mr Nobody";
                     nextUserInput = userInput.replace(/%20/, " ");
                 }
     
@@ -213,7 +213,7 @@ function runLiri() {
     }
 }
 
-//Random.txt: node liri.js do-what-it-says
+// Random.txt: node liri.js do-what-it-says
 if (userCommand == "do-what-it-says") {
     var fs = require("fs");
 
@@ -223,11 +223,12 @@ if (userCommand == "do-what-it-says") {
             return console.log(error)
         }
 
-        //array
+        //split data into array
         var textArr = data.split(",");
         userCommand = textArr[0];
         userInput = textArr[1];
-        nextUserInput = userInput.replace(/%20/g, " ");
+        nextUserInput = userInput.replace(/%20/, " ");
         runLiri();
     })
 }
+

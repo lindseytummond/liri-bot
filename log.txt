@@ -539,3 +539,38 @@ Song Name: The Signs Were There
 Preview of Song: https://p.scdn.co/mp3-preview/6061cbbe01bfe6005ba0f97dc73c8e540d99e6eb?cid=0216256cf5a542a19c01e9f996a1f0ac
 Album Name: Smooth Saxophone Jazz
 ----------------
+joker
+----------------
+Title: Joker
+Release Year: 2019
+IMDB Rating: 8.6/10
+Rating: 68%
+Country: USA, Canada
+Language: English
+Plot: In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.
+Actors: Joaquin Phoenix, Robert De Niro, Zazie Beetz, Frances Conroy
+----------------
+the godfather
+----------------
+Title: The Godfather
+Release Year: 1972
+IMDB Rating: 9.2/10
+Rating: 98%
+Country: USA
+Language: English, Italian, Latin
+Plot: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+Actors: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
+----------------
+the hunt
+----------------
+Title: The Hunt
+Release Year: 2012
+IMDB Rating: 8.3/10
+Rotten Tomatoes Rating: 92%
+Country: Denmark, Sweden
+Language: Danish, English, Polish
+Plot: A teacher lives a lonely life, all the while struggling over his son's custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.
+Actors: Mads Mikkelsen, Thomas Bo Larsen, Annika Wedderkopp, Lasse Fogelstrøm
+----------------
+Mr Nobody
+----------------

@@ -47,6 +47,7 @@ runLiri();
 //switch stmt 
 function runLiri() {
     switch (userCommand) {
+        //bands in town: node liri.js concert-this <artist/band name here>
         case "concert-this":
 
             //append userInput to log.txt
@@ -110,7 +111,7 @@ function runLiri() {
             });
             break;
         
-
+        //spotify: node liri.js spotify-this-song '<song name here>'
         case "spotify-this-song":
         // console.log("test");
 
@@ -169,47 +170,47 @@ function runLiri() {
 
             break;
 
-
-        // case "movie-this":
-        //     //If statement for no movie provided
-        //     if (!userInput) {
-        //         userInput = "Mr%20Nobody";
-        //         nextUserInput = userInput.replace(/%20/g, " ");
-        //     }
-
-        //     //Append userInput to log.txt
-        //     fs.appendFileSync("log.txt", nextUserInput + "\n----------------\n", function (error) {
-        //         if (error) {
-        //             console.log(error);
-        //         };
-        //     });
-
-        //     //Run request to OMDB
-        //     var queryURL = "https://www.omdbapi.com/?t=" + userInput + "&y=&plot=short&apikey=trilogy"
-        //     request(queryURL, function (error, response, body) {
-        //         if (!error && response.statusCode === 200) {
-        //             var info = JSON.parse(body);
-        //             console.log("Title: " + info.Title)
-        //             console.log("Release Year: " + info.Year)
-        //             console.log("OMDB Rating: " + info.Ratings[0].Value)
-        //             console.log("Rating: " + info.Ratings[1].Value)
-        //             console.log("Country: " + info.Country)
-        //             console.log("Language: " + info.Language)
-        //             console.log("Plot: " + info.Plot)
-        //             console.log("Actors: " + info.Actors)
-
-        //             //Append data to log.txt
-        //             fs.appendFileSync("log.txt", "Title: " + info.Title + "\nRelease Year: " + info.Year + "\nIMDB Rating: " + info.Ratings[0].Value + "\nRating: " +
-        //                 info.Ratings[1].Value + "\nCountry: " + info.Country + "\nLanguage: " + info.Language + "\nPlot: " + info.Plot + "\nActors: " + info.Actors + "\n----------------\n",
-        //                 function (error) {
-        //                     if (error) {
-        //                         console.log(error);
-        //                     };
-        //                 });
-        //         }
-        //     });
-
-        //     break;
+        //OMDB: node liri.js movie-this '<movie name here>'
+        case "movie-this":
+                //if statement for no movie provided
+                if (!userInput) {
+                    userInput = "Mr%20Nobody";
+                    nextUserInput = userInput.replace(/%20/g, " ");
+                }
+    
+                //append userInput to log.txt
+                fs.appendFileSync("log.txt", nextUserInput + "\n----------------\n", function (error) {
+                    if (error) {
+                        console.log(error);
+                    };
+                });
+    
+                //run request to OMDB
+                var queryURL = "https://www.omdbapi.com/?t=" + userInput + "&y=&plot=short&apikey=trilogy"
+                request(queryURL, function (error, response, body) {
+                    if (!error && response.statusCode === 200) {
+                        var info = JSON.parse(body);
+                        console.log("Title: " + info.Title)
+                        console.log("Release Year: " + info.Year)
+                        console.log("OMDB Rating: " + info.Ratings[0].Value)
+                        console.log("Rotten Tomatoes Rating: " + info.Ratings[1].Value)
+                        console.log("Country: " + info.Country)
+                        console.log("Language: " + info.Language)
+                        console.log("Plot: " + info.Plot)
+                        console.log("Actors: " + info.Actors)
+    
+                        //append data to log.txt
+                        fs.appendFileSync("log.txt", "Title: " + info.Title + "\nRelease Year: " + info.Year + "\nIMDB Rating: " + info.Ratings[0].Value + "\nRotten Tomatoes Rating: " +
+                            info.Ratings[1].Value + "\nCountry: " + info.Country + "\nLanguage: " + info.Language + "\nPlot: " + info.Plot + "\nActors: " + info.Actors + "\n----------------\n",
+                            function (error) {
+                                if (error) {
+                                    console.log(error);
+                                };
+                            });
+                    }
+                });
+    
+                break;
         
     }
 }

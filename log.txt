@@ -1,0 +1,60 @@
+madonna
+----------------
+taylor swift
+----------------
+Venue: Werchter Boutique
+Location: Rotselaar, Belgium
+Date: 06/20/2020
+----------------
+Venue: Waldbühne Berlin
+Location: Berlin, Germany
+Date: 06/24/2020
+----------------
+Venue: Oslo Sommertid
+Location: Oslo, Norway
+Date: 06/26/2020
+----------------
+Venue: Roskilde Festival
+Location: Roskilde, Denmark
+Date: 07/01/2020
+----------------
+Venue: Open’er Festival
+Location: Powiat Pucki, Poland
+Date: 07/03/2020
+----------------
+Venue: Festival de Nîmes
+Location: Nîmes, France
+Date: 07/05/2020
+----------------
+Venue: NOS Alive
+Location: Algés, Portugal
+Date: 07/09/2020
+----------------
+Venue: Hyde Park
+Location: London, United Kingdom
+Date: 07/11/2020
+----------------
+Venue: Allianz Parque
+Location: Sao Paulo, Brazil
+Date: 07/18/2020
+----------------
+Venue: Allianz Parque
+Location: Sao Paulo, Brazil
+Date: 07/19/2020
+----------------
+Venue: Lover Fest West
+Location: Los Angeles, CA, United States
+Date: 07/25/2020
+----------------
+Venue: Lover Fest West
+Location: Los Angeles, CA, United States
+Date: 07/26/2020
+----------------
+Venue: Lover Fest East
+Location: Foxborough, MA, United States
+Date: 07/31/2020
+----------------
+Venue: Lover Fest East
+Location: Foxborough, MA, United States
+Date: 08/01/2020
+----------------

@@ -173,7 +173,7 @@ function runLiri() {
         case "movie-this":
                 //if statement for no movie provided
                 if (!userInput) {
-                    userInput = "Mr Nobody";
+                    userInput = "Mr. Nobody";
                     nextUserInput = userInput.replace(/%20/, " ");
                 }
     

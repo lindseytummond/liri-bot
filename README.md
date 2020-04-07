@@ -1,6 +1,6 @@
 # LIRI Bot - Language Interpretation and Recognition Interface
 
-## Problem App is Solving:
+## Problem the App is Solving:
 LIRI Bot solves the problem of searching Bands In Town for concerts, Spotify for songs, and OMDB for movies. It solves using multiple resources to find detailed information about concerts, songs, and movies in one centralized location.
 
 ## Overview: 
@@ -42,7 +42,7 @@ This will search the Bands in Town Artist Events API for an artist and render th
 
 `node liri.js spotify-this-song <song name here>`
 
-This will search Node-Spotify-API for a song and render the following information to the terminal:
+This will search the Node-Spotify-API for a song and render the following information to the terminal:
 
 -   Artist(s)
 -   The song's name
@@ -53,11 +53,11 @@ This will search Node-Spotify-API for a song and render the following informatio
 ### OMDB
 
 <img src="images/omdb-joker.png">
-<img src="images/omdb-mrNobody.png">
+<img src="images/omdb-mrNobdy.png">
 
 `node liri.js movie-this <movie name here>`
 
-This will search OMDB API for a movie and render the following information to the terminal:
+This will search the OMDB API for a movie and render the following information to the terminal:
 
 -   Title of the movie
 -   Year the movie came out

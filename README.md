@@ -11,6 +11,9 @@ LIRI is a command line node app that takes in parameters and provides data based
 -	movie-this
 -	do-what-it-says
 
+## Future Enhancements:
+Future developments would include creating front-end with a simple, user friendly UI.  Likewise, creating search fields and buttons would make it more approachable.
+
 ## Technologies:
 -	Javascript
 -	Node.js
@@ -23,7 +26,7 @@ LIRI is a command line node app that takes in parameters and provides data based
 
 ## How to run the app:
 
-### Bands In Town
+## Bands In Town
 
 <img src="images/bandsInTown-pitbull.png">
 
@@ -35,7 +38,7 @@ This will search the Bands in Town Artist Events API for an artist and render th
 -   Venue location
 -   Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-### Spotify
+## Spotify
 
 <img src="images/spotify-rhiannon.png">
 <img src="images/spotify-default.png">
@@ -50,7 +53,7 @@ This will search the Node-Spotify-API for a song and render the following inform
 -   The album that the song is from
 -   If no song is provided the program will default to "The Sign" by Ace of Base.
 
-### OMDB
+## OMDB
 
 <img src="images/omdb-joker.png">
 <img src="images/omdb-mrNobdy.png">
@@ -61,7 +64,7 @@ This will search the OMDB API for a movie and render the following information t
 
 -   Title of the movie
 -   Year the movie came out
--   IMDB Rating of the movie
+-   OMDB Rating of the movie
 -   Rotten Tomatoes Rating of the movie
 -   Country where the movie was produced
 -   Language of the movie
@@ -69,7 +72,7 @@ This will search the OMDB API for a movie and render the following information t
 -   Actors in the movie
 -   If no movie is provided the program will default to the movie "Mr. Nobody"
 
-### LIRI Bot: Do What It Says
+## LIRI Bot: Do What It Says
 
 <img src="images/do-what-it-says.png">
 

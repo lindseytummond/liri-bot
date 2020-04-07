@@ -2286,3 +2286,63 @@ Language: English, Mohawk
 Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
 Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 ----------------
+pitbull
+----------------
+Venue: Mississippi Valley Fairgrounds
+Location: Davenport, IA, United States
+Date: 08/08/2020
+----------------
+Venue: Wolf Trap Foundation for the Performing Arts
+Location: Vienna, VA, United States
+Date: 08/30/2020
+----------------
+Venue: Zappos Theater
+Location: Las Vegas, NV, United States
+Date: 09/10/2020
+----------------
+Venue: Zappos Theater
+Location: Las Vegas, NV, United States
+Date: 09/11/2020
+----------------
+pitbull
+----------------
+Venue: Fort Lauderdale Beach Park
+Location: Fort Lauderdale, FL, United States
+Date: 04/17/2020
+----------------
+Venue: Zappos Theater
+Location: Las Vegas, NV, United States
+Date: 04/22/2020
+----------------
+Venue: Zappos Theater
+Location: Las Vegas, NV, United States
+Date: 04/24/2020
+----------------
+Venue: Zappos Theater
+Location: Las Vegas, NV, United States
+Date: 04/25/2020
+----------------
+Venue: Nugget Casino Resort
+Location: Sparks, NV, United States
+Date: 05/23/2020
+----------------
+Venue: Laughlin Event Center
+Location: Laughlin, NV, United States
+Date: 05/24/2020
+----------------
+Venue: Mississippi Valley Fairgrounds
+Location: Davenport, IA, United States
+Date: 08/08/2020
+----------------
+Venue: Wolf Trap Foundation for the Performing Arts
+Location: Vienna, VA, United States
+Date: 08/30/2020
+----------------
+Venue: Zappos Theater
+Location: Las Vegas, NV, United States
+Date: 09/10/2020
+----------------
+Venue: Zappos Theater
+Location: Las Vegas, NV, United States
+Date: 09/11/2020
+----------------

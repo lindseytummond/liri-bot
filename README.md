@@ -4,7 +4,7 @@
 LIRI Bot solves the problem of searching Bands In Town for concerts, Spotify for songs, and OMDB for movies. It solves using multiple resources to find detailed information about concerts, songs, and movies in one centralized location.
 
 ## Overview: 
-LIRI is a command line node app that takes in parameters and provides data based off the following commands:
+LIRI is a command line node app (no client side) that takes in parameters and provides data based off the following commands:
 
 -	concert-this
 -	spotify-this-song

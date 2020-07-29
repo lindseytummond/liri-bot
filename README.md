@@ -1,6 +1,6 @@
 # LIRI Bot - Language Interpretation and Recognition Interface
 
-## Problem the App is Solving:
+### Problem the App is Solving:
 LIRI Bot solves the problem of searching Bands In Town for concerts, Spotify for songs, and OMDB for movies. It solves using multiple resources to find detailed information about concerts, songs, and movies in one centralized location.
 
 ## Overview: 
@@ -10,6 +10,12 @@ LIRI is a command line node app (no client side) that takes in parameters and pr
 -	`spotify-this-song`
 -	`movie-this`
 -	`do-what-it-says`
+
+## Author:
+Lindsey Tummond
+- <a href="https://lindseytummond.github.io/portfolio/" target="_blank"> Portfolio </a>
+- <a href="https://github.com/lindseytummond" target="_blank"> GitHub </a>
+- <a href="https://www.linkedin.com/in/lindsey-tummond-b86aa341/" target="_blank"> LinkedIn </a>
 
 ## Future Enhancements:
 Future developments would include creating front-end with a simple, user friendly UI.  Likewise, creating search fields and buttons would make it more approachable.
@@ -80,52 +86,5 @@ This will search the OMDB API for a movie and render the following information t
 
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. In this instance, it will run `spotify-this-song` for "I Want it That Way" by The Backstreet Boys
 
-# Osbourne Train Service - Train Scheduler
-
-### Overview:
-Train Scheduler app incorporates Firebase to host arrival and departure data. The app will retrieve and manipulate this information with `Moment.js`. The provides up-to-date information about various trains, specifically their arrival times and how many minutes remain until they arrive at their station.
-
-## Author:
-Lindsey Tummond
-- <a href="https://lindseytummond.github.io/portfolio/" target="_blank"> Portfolio </a>
-- <a href="https://github.com/lindseytummond" target="_blank"> GitHub </a>
-- <a href="https://www.linkedin.com/in/lindsey-tummond-b86aa341/" target="_blank"> LinkedIn </a>
-
-## Learning Points:
-- Initialize and use Firebase as a real time database
-- Utilization of `Moment.js` to validate and manipulate displaying time in Javascript
-- Understanding of multiple files and how to link file structure
-
-## Technologies:
--   HTML
--   CSS
--   Javascript
--   jQuery
--   GitHub
--   Bootstrap
--   Google Fonts
--   Firebase
--   Moment.js
-
-## How the app works:
-Use the following link https://lindseytummond.github.io/trainScheduler/ to open the application. <br>
-
-1.  Osbourne Train Service allows users to add train service based on:
-
-        * Train Name
-    
-        * Destination 
-    
-        * First Train Time -- in military time
-    
-        * Frequency -- in minutes
-  
-2.  The app calculates when the next train will arrive (relative to the current time).
-  
-3.  Users from various different machines are able to view same train times (Current Train Schedule).
 
 
-## App Example:
-<p align="center">
-  <img src="assets/images/Osbourne-Train-Service.gif">
-</p>
